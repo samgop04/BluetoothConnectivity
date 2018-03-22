@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        //initializing filters and registering call for broadcast receiver
+
         mActionFoundFilter = new IntentFilter(BluetoothDevice.ACTION_FOUND);
         this.registerReceiver(mReceiver, mActionFoundFilter);
 
