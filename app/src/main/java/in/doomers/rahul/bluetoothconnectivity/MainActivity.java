@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 startDiscovery();
             }
         });
-      
+        //Initializing arrayadapter
         mPairedDeviceAdapter = new ArrayAdapter<>(this, R.layout.device_name, R.id.tv);
         mNewDevicesArrayAdapter = new ArrayAdapter<>(this, R.layout.device_name, R.id.tv);
 
